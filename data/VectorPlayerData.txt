@@ -74,6 +74,7 @@ Dragon Knight,Invoker,Phantom Assassin,Pudge,Windrunner,Enigma,Dark Seer,Death P
 Dragon Knight,Bloodseeker,Queen of Pain,Night Stalker,Bounty Hunter,Windrunner,Axe,Lich,Sniper,Lifestealer,Radiant
 Bloodseeker,Chaos Knight,Dazzle,Shadow Fiend,Beastmaster,Lifestealer,Windrunner,Queen of Pain,Pugna,Venomancer,Radiant
 Lone Druid,Bounty Hunter,Spectre,Omniknight,Shadow Fiend,Pudge,Riki,Mirana,Dark Seer,Juggernaut,Dire
+Anti-Mage,Clinkz,Ancient Apparition,Templar Assassin,Lifestealer,Viper,Enchantress,Dazzle,Tiny,Dark Seer,Dire
 Nature's Prophet,Keeper of the Light,Drow Ranger,Skeleton King,Lifestealer,Sniper,Axe,Juggernaut,Phantom Lancer,Pudge,Radiant
 Doom Bringer,Ursa,Leshrac,Sand King,Phantom Assassin,Spirit Breaker,Dazzle,Jakiro,Chen,Gyrocopter,Radiant
 Axe,Nature's Prophet,Phantom Assassin,Rubick,Pudge,Visage,Invoker,Viper,Drow Ranger,Sven,Dire

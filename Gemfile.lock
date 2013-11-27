@@ -1,0 +1,10 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    cross_validation (0.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cross_validation

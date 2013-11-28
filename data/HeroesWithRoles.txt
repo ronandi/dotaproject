@@ -1,0 +1,90 @@
+﻿Pugna,Ranged,Support,Nuker,Pusher
+Lich,Ranged,Support,Nuker,Lane Support
+Lina,Ranged,Support,Nuker,Disabler
+Kunkka,Melee,Carry,Durable,Disabler,Initiator
+Bounty Hunter,Melee,Carry,Escape,Nuker
+Drow Ranger,Ranged,Carry
+Nature's Prophet,Ranged,Jungler,Pusher,Carry,Escape
+Sniper,Ranged,Carry
+Templar Assassin,Ranged,Carry,Escape
+Tiny,Melee,Nuker,Initiator,Durable
+Tidehunter,Melee,Initiator,Durable,Disabler,Support
+Sven,Melee,Carry,Disabler,Initiator,Support
+Huskar,Melee,Carry,Initiator,Durable
+Death Prophet,Ranged,Pusher,Nuker,Durable
+Axe,Melee,Durable,Initiator,Disabler,Jungler
+Invoker,Ranged,Carry,Nuker,Initiator,Escape
+Spirit Breaker,Melee,Durable,Carry,Initiator,Disabler
+Luna,Ranged,Carry,Nuker
+Phantom Assassin,Melee,Carry,Escape
+Leshrac,Ranged,Nuker,Pusher,Disabler,Support
+Shadow Fiend,Ranged,Carry,Nuker
+Mirana,Ranged,Carry,Nuker,Disabler,Escape
+Ogre Magi,Melee,Nuker,Disabler,Durable
+Naga Siren,Melee,Carry,Disabler,Pusher,Escape
+Silencer,Ranged,Support,Carry,Initiator
+Anti-Mage,Melee,Carry,Escape
+Venomancer,Ranged,Support,Nuker,Initiator,Pusher
+Queen of Pain,Ranged,Nuker,Escape,Carry
+Faceless Void,Melee,Carry,Initiator,Escape,Disabler
+Wisp,Ranged,Support,Nuker,Lane Support
+Earthshaker,Melee,Initiator,Disabler,Support,Lane Support
+Windrunner,Ranged,Disabler,Nuker,Support,Escape
+Dragon Knight,Melee,Carry,Durable,Disabler,Pusher
+Slardar,Melee,Carry,Durable,Disabler,Initiator
+Night Stalker,Melee,Durable,Initiator
+Morphling,Ranged,Carry,Escape,Initiator,Nuker
+Enigma,Ranged,Disabler,Initiator,Jungler,Pusher
+Sand King,Melee,Initiator,Disabler,Nuker
+Broodmother,Melee,Pusher,Carry,Escape
+Lifestealer,Melee,Carry,Durable,Jungler,Escape
+Ancient Apparition,Ranged,Support,Disabler
+Pudge,Melee,Durable,Disabler
+Omniknight,Melee,Durable,Lane Support,Support
+Warlock,Ranged,Initiator,Support,Lane Support,Disabler
+Viper,Ranged,Carry,Durable
+Dark Seer,Melee,Initiator,Nuker,Escape
+Clockwerk,Melee,Initiator,Durable
+Keeper of the Light,Ranged,Pusher
+Alchemist,Melee,Durable,Carry,Disabler
+Lone Druid,Ranged,Melee,Carry,Durable,Pusher,Jungler
+Outworld Destroyer,Ranged,Carry
+Bloodseeker,Melee,Carry,Jungler
+Juggernaut,Melee,Carry,Pusher
+Doom Bringer,Melee,Durable,Carry,Nuker
+Riki,Melee,Carry,Escape
+Dazzle,Ranged,Support,Lane Support,
+Jakiro,Ranged,Nuker,Pusher,Lane Support,Disabler
+Lycanthrope,Melee,Carry,Jungler,Pusher,Durable,
+Zeus,Ranged,Nuker,Support
+Skeleton King,Melee,Durable,Carry,Disabler
+Rubick,Ranged,Disabler,Pusher
+Enchantress,Ranged,Support,Pusher,Durable,Jungler
+Clinkz,Ranged,Carry,Escape
+Crystal Maiden,Ranged,Support,Disabler,Nuker,Lane Support
+Ursa,Melee,Carry,Jungler,Durable
+Phantom Lancer,Melee,Carry,Escape,Pusher
+Razor,Ranged,Carry,Durable,Nuker
+Tinker,Ranged,Nuker,Pusher
+Shadow Shaman,Ranged,Pusher,Disabler,Nuker,Support
+Storm Spirit,Ranged,Carry,Initiator,Escape,Disabler
+Beastmaster,Melee,Initiator,Disabler,Durable
+Disruptor,Ranged,Nuker,Support,Initiator,Disabler
+Gyrocopter,Ranged,Disabler,Initiator,Nuker
+Witch Doctor,Ranged,Support,Disabler
+Lion,Ranged,Disabler,Nuker,Lane Support,Support
+Bane,Ranged,Disabler,Nuker,Support
+Shadow Demon,Ranged,Support,Disabler,Nuker
+Chaos Knight,Melee,Carry,Disabler,Durable,Pusher
+Brewmaster,Melee,Carry,Durable,Initiator,Pusher
+Necrolyte,Ranged,Support,Durable,Carry
+Spectre,Melee,Carry,Durable
+Nyx Assassin,Melee,Disabler,Nuker
+Vengeful Spirit,Ranged,Support,Disabler,Lane Support,Initiator
+Chen,Ranged,Support,Jungler,Pusher
+Weaver,Ranged,Carry,Escape
+Puck,Ranged,Initiator,Nuker,Disabler,Escape
+Treant Protector,Melee,Durable,Initiator,Lane Support,Disabler 
+Undying,Melee,Durable,Pusher,Disabler,Initiator
+Batrider,Ranged,Initiator,Disabler,Nuker,Escape
+Visage,Ranged,Nuker,Durable,Disabler

@@ -1,5 +1,5 @@
 require 'cross_validation'
-require './base'
+require '../base'
 
 data_file = '../data/VectorPlayerData.txt'
 

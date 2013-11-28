@@ -1,0 +1,12 @@
+Ranged
+Support
+Nuker
+Pusher
+Lane Support
+Disabler
+Melee
+Carry
+Durable
+Initiator
+Escape
+Jungler

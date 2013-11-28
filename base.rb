@@ -9,10 +9,10 @@ LOSSES = 1
 class BaseDotaClassifier
   @hero_list = []
   File.open(HERO_FILE).each do |hero|
-    @hero_listT << hero.chomp
+    @hero_list << hero.chomp
   end
 
-  def hero_list
+  def self.hero_list
     @hero_list
   end
 

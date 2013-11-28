@@ -4,8 +4,8 @@ RADIANT = 4
 WIN = 5
 
 #Config
-data_file = 'data/HighAndVeryHighPlayerData.txt'
-outfile = 'data/HighAndVeryHighVectorPlayerData.txt'
+data_file = '../data/PlayerData.txt'
+outfile = '../data/VectorPlayerData.txt'
 
 #Drop header line
 data = File.readlines(data_file).drop(1)

@@ -1,6 +1,6 @@
 #Data/Config
 HERO_LIST = []
-HERO_FILE = 'data/Heroes.txt'
+HERO_FILE = '../data/Heroes.txt'
 
 #Array format
 WINS = 0

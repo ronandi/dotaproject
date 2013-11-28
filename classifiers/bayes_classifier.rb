@@ -1,7 +1,7 @@
 require 'cross_validation'
 require './base'
 
-data_file = 'data/VectorPlayerData.txt'
+data_file = '../data/VectorPlayerData.txt'
 
 class DotaClassifier < BaseDotaClassifier
 

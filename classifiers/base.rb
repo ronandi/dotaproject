@@ -57,16 +57,22 @@ class BaseDotaClassifier
   def initialize
     @count = 0
     @hero_record = {}
+    @role_record = {}
     @radiant_wins = 0
     @dire_wins = 0
     BaseDotaClassifier.hero_list.each do |hero|
       @hero_record[hero] = [0, 0]
+    end
+    BaseDotaClassifier.role_list.each do |role|
+      @role_record[role] = { win: Array.new(6,0), lose: Array.new(6,0) }
     end
   end
 
   def train(heroes, category)
     radiant_roles, dire_roles = count_roles(heroes)
     if (category == 'Radiant')
+      radiant_roles.each { |role, count| @role_record[role][:win][count] += 1 }
+      dire_roles.each { |role, count| @role_record[role][:lose][count] += 1 }
       @radiant_wins += 1
       heroes[0..4].each do |hero|
         @hero_record[hero][WINS] += 1
@@ -76,6 +82,8 @@ class BaseDotaClassifier
       end
     end
     if (category == 'Dire')
+      radiant_roles.each { |role, count| @role_record[role][:lose][count] += 1 }
+      dire_roles.each { |role, count| @role_record[role][:win][count] += 1 }
       @dire_wins += 1
       heroes[0..4].each do |hero|
         @hero_record[hero][LOSSES] += 1

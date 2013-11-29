@@ -84,7 +84,7 @@ Vengeful Spirit,Ranged,Support,Disabler,Lane Support,Initiator
 Chen,Ranged,Support,Jungler,Pusher
 Weaver,Ranged,Carry,Escape
 Puck,Ranged,Initiator,Nuker,Disabler,Escape
-Treant Protector,Melee,Durable,Initiator,Lane Support,Disabler 
+Treant Protector,Melee,Durable,Initiator,Lane Support,Disabler
 Undying,Melee,Durable,Pusher,Disabler,Initiator
 Batrider,Ranged,Initiator,Disabler,Nuker,Escape
 Visage,Ranged,Nuker,Durable,Disabler

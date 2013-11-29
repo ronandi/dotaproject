@@ -7,6 +7,7 @@ class DotaClassifier < BaseDotaClassifier
 
   #Classifier #1, multiply each teams win rate. The one with the higher probability wins
   def classify1(heroes)
+    radiant_roles, dire_roles = count_roles(heroes)
     radiant_team = heroes[0..4]
     rad_prob = radiant_team.inject(1) do |result, hero|
       record = @hero_record[hero]
@@ -14,12 +15,20 @@ class DotaClassifier < BaseDotaClassifier
     end
     rad_prob *= (@radiant_wins.to_f / (@radiant_wins + @dire_wins))
 
+    radiant_roles.each do |role, count|
+      rad_prob *= (@role_record[role][:win][count].to_f / (@role_record[role][:lose][count] + @role_record[role][:win][count]))
+    end
+
     dire_team = heroes[5..9]
     dire_prob = dire_team.inject(1) do |result, hero|
       record = @hero_record[hero]
       result *= (record[WINS].to_f / (record[WINS] + record[LOSSES]))
     end
     dire_prob *= (@dire_wins.to_f / (@radiant_wins + @dire_wins))
+
+    dire_roles.each do |role, count|
+      dire_prob *= (@role_record[role][:win][count].to_f / (@role_record[role][:lose][count] + @role_record[role][:win][count]))
+    end
 
     klass = 'Dire'
     klass = 'Radiant' if rad_prob > dire_prob

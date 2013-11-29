@@ -1,4 +1,4 @@
-﻿Pugna,Ranged,Support,Nuker,Pusher
+Pugna,Ranged,Support,Nuker,Pusher
 Lich,Ranged,Support,Nuker,Lane Support
 Lina,Ranged,Support,Nuker,Disabler
 Kunkka,Melee,Carry,Durable,Disabler,Initiator

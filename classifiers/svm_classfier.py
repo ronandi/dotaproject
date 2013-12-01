@@ -6,16 +6,16 @@ from sklearn.metrics import classification_report
 from sklearn.svm import SVC
 
 DATA_FILE = '../data/BigVectorPlayerData.txt'
-DATA_SIZE = 10000
+DATA_SIZE = 5000
 
 X = np.loadtxt(DATA_FILE, dtype=np.dtype(int), delimiter=',', usecols=range(180))[0:DATA_SIZE]
 Y = np.loadtxt(DATA_FILE, dtype=np.dtype(int), delimiter=',', usecols=[180])[0:DATA_SIZE]
 
 X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size = 0.5, random_state = 0)
 
-tuned_params = [{'kernel': ['rbf'], 'gamma':[1e-3, 1e-4],
-  'C': [1, 10, 100, 1000]},
-  {'kernel': ['linear'], 'C': [1, 10, 100, 1000]}]
+tuned_params = [{'kernel': ['rbf'], 'gamma':[1e-10,1e-6, 1e-4, 1e-3, 1e-1, 1, 10, 100, 1000],
+  'C': [1e-5, 1e-3, 1, 10, 50, 100, 1000]},
+  {'kernel': ['linear'], 'C': [1e-5, 1e-3, 1, 10, 50, 100, 1000]}]
 
 scores = ['accuracy']
 
